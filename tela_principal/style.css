@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #302E2B;
+    color: rgba(255, 255, 255, 0.769);
+    height: 900vh; 
+}
+
+header{
+    padding: 8px;
+}
+
+nav.menu-lateral{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    padding: 15px 0px 40px 1% ;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .2;
+    overflow: hidden;
+}
+
+nav.menu-lateral.expandir{
+    width: 35vw;
+    background-color: dimgray;
+    height: 100%;
+    transition: .2s;
+}
+
+.btn-expandir{
+    height: 50px;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+li:hover{
+    background-color: rosybrown;
+}
+
+li{
+    transition: .1s;
+}
+
+li.ativo{
+    background-color: rosybrown;
+}
+
+.menu-item > a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 4%;
+    display: flex;
+}
+
+.txt-link{
+    margin-left: 15px;
+}
+
+.foto-de-perfil{
+    position: absolute;
+    display: inline;
+    right: 15px;
+    margin-top: .5%;
+}
+
+.foto-de-perfil > i{
+    font-size: 26px;
+}
+
+.caixa-de-alinhamento{
+    text-align: center;
+}
+
+.position > p{
+    font-size: 20px;
+}
+
+.name > p{
+    font-size: 25px;
+}
+
+footer{
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+table, th, td{
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+
