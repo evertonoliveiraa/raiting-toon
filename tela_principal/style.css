@@ -7,7 +7,7 @@
 
 body{
     background-color: #302E2B;
-    color: rgba(255, 255, 255, 0.769);
+    color: rgb(255, 255, 255);
     height: 900vh; 
 }
 
@@ -104,16 +104,14 @@ footer{
 
 table{
     border-collapse: collapse;
-    width: 70%;
+    width: 90%;
     margin: auto;
     margin-top: 50px;
     text-align: center;
 }
+
 table, th, td{
     border: solid black 1px;
     border-collapse: collapse;
     padding: 5px;
 }
-
-
-
