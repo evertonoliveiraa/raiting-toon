@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+    color: #66997b;
 }
 
 /*
@@ -11,7 +14,13 @@ caixa-login = #262421
 */
 
 body{
-    background-color: #302E2B;
+    background-image: url('../imagens/pexels-deva-darshan-2695392.jpg');
+      
+      /* Define o modo de exibição da imagem de fundo */
+      background-size: cover; /* Cobrir toda a área disponível */
+      background-position: center; /* Centralizar */
+      background-repeat: no-repeat; /* Evitar repetição da imagem */
+      height: 100vh;
 }
 
 header{
@@ -23,22 +32,27 @@ header{
 .caixa-login{
     width: 300px;
     height: 300px;
-    background-color: #262421;
+    background-color: rgba(0, 0, 0, 0.702);
     margin: auto;
     align-items: center;
     padding: 20px;
     border-radius: 10px;
     position: sticky;
+    box-shadow: 2px 2px 3px black;
 }
 
 .placeholder{
     border: none;
     border-radius: 8px;
     padding: 7px;
-    margin-bottom: 15px;
-    background-color: #3C3A38;
+    margin-bottom: 20px;
+    background-color: #3c3a38b0;
     color: white; 
 
+}
+
+#email{
+    margin-top: 23px;
 }
 
 #btn-entrar{
@@ -47,18 +61,17 @@ header{
     margin-top: 5%;
     width: 100%;
     height: 40px;
-    background-color:rosybrown ;
+    background-color:#66997b ;
     font-size: 15px;
     font-weight: bolder;
     border-radius: 10px;
     border:none;
-    box-shadow: 0px 5px rgb(150, 114, 114);
+    box-shadow: 0px 5px #66997bbd;
     color: white;
 }
 
 .btn-p{
     text-decoration: none;
-    color: rosybrown;
     position: absolute;
     bottom: 6%;
 }

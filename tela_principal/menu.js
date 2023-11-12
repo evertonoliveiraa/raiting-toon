@@ -1,17 +1,18 @@
 //seleciona os itens da barra lateral.
 
-var menuitem = document.querySelectorAll('.menu-item')
+//var menuitem = document.querySelectorAll('.menu-item')
 
-function selectlink(){
-    menuitem.forEach((item)=>
-        item.classList.remove('ativo')
-    )
-    this.classList.add('ativo')
-}
+//function selectlink(){
+//    menuitem.forEach((item)=>
+//        item.classList.remove('ativo')
+//    )
+//   this.classList.add('ativo')
+//}
 
-menuitem.forEach((item)=>
-    item.addEventListener('click', selectlink)
-)
+//menuitem.forEach((item)=>
+//    item.addEventListener('click', selectlink)
+//)
+
 //seleciona os itens da barra lateral.
 
 //expande o menu.

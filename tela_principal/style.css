@@ -1,14 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
+/*#302E2B*/
+
 body{
-    background-color: #302E2B;
-    color: rgb(255, 255, 255);
+    color: #47232c;
     height: 900vh; 
+    background-image: url('../imagens/pexels-deva-darshan-2695392.jpg');
+      
+      /* Define o modo de exibição da imagem de fundo */
+      background-size: cover; /* Cobrir toda a área disponível */
+      background-position: center; /* Centralizar */
+      background-repeat: no-repeat; /* Evitar repetição da imagem */
+      background-attachment: fixed;
+
 }
 
 header{
@@ -30,7 +42,7 @@ nav.menu-lateral{
 
 nav.menu-lateral.expandir{
     width: 35vw;
-    background-color: dimgray;
+    background-color: #47232cb4;
     height: 100%;
     transition: .2s;
 }
@@ -40,9 +52,13 @@ nav.menu-lateral.expandir{
     padding-left: 10px;
 }
 
+.btn-expandir-color{
+    color: #66997b;
+}
+
 .btn-expandir > i{
     font-size: 23px;
-    color: white;
+    color: #47232c;
     cursor: pointer;
 }
 
@@ -52,7 +68,7 @@ ul{
 }
 
 li:hover{
-    background-color: rosybrown;
+    background-color: #66997b;
 }
 
 li{
@@ -64,11 +80,15 @@ li.ativo{
 }
 
 .menu-item > a{
-    color: white;
+    color: #66997b;
     text-decoration: none;
     font-size: 16px;
     padding: 10px 4%;
     display: flex;
+}
+
+.menu-item > a:hover{
+    color: #27081d;
 }
 
 .txt-link{
@@ -76,7 +96,7 @@ li.ativo{
 }
 
 .foto-de-perfil{
-    position: absolute;
+    position: fixed;
     display: inline;
     right: 15px;
     margin-top: .5%;
@@ -104,14 +124,18 @@ footer{
 
 table{
     border-collapse: collapse;
-    width: 90%;
+    width: 85%;
     margin: auto;
     margin-top: 50px;
     text-align: center;
+    border-radius: 10px;
 }
 
 table, th, td{
     border: solid black 1px;
     border-collapse: collapse;
     padding: 5px;
+    background-color: #27081da5;
+    color: #66997beb;
+
 }
